@@ -36,4 +36,5 @@ if i == '0' :
 elif i == '1':
     print(f'You chose {things[1]}. You must like tv!')
 elif i == '2':
-    print
+    print(f'You chose {things[2]}. You must like studying!')
+    

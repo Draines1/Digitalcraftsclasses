@@ -15,11 +15,20 @@ for child in mykids:
 
 #1.Using a while loop create a program the prints the value of your favorite movie stars.
     #have a number in front of the printed name.
-moviestars = 
-while moviestars 
+moviestars = ["Denzel", "Will", "Dwayne"]
+
+index = 0
+
+while index < len(moviestars):
+    print(index +1, movivestars[index]) 
+    index += 1
 
 #2.Using a for loop, re-do the above exercise.
     #(hint) you still need to create a variable that is incrimented.
+
+for actor in moviestars:
+    print(index + 1, actor)
+    index += 1
 
 #3. Create a program that will add the values of a list of numbers, and then print out the results.
     #(hint) You will need to create a variable to hold the current value.
